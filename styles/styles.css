@@ -1,0 +1,26 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* header related styles */
+
+.header {
+  background-image: url('../images/banner/banner1.png');
+}
+
+.sec-title {
+  color: #151414;
+  text-align: right;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.head {}
+
+.sec-des {
+  color: #444343;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+
+}
