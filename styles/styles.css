@@ -89,9 +89,14 @@ h2 {
   width: 527.929px;
   height: 527.929px;
   margin-right: 87px;
-  overflow: hidden;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .circle img {
 position: absolute;
+width: 100%;
+height: auto;
+z-index: 10;
 }
