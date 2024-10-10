@@ -195,12 +195,11 @@ footer {
 border: 1px solid #FFF;
 padding: 18px 158px 18px 18px;
 }
-.foot-half {
-  margin: 15px;
+.foot-half  {
+  margin: 40px;
 }
-.foot h3,a,h2,p, {
-  padding: 10%;
+.foot-half h3 , a ,h2 , p ,{
+  padding : 10%;
+  margin : 40px;
 }
-.foot {
-  padding: 10%;
-}
+
