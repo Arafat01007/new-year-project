@@ -11,11 +11,17 @@
   margin: auto;
 }
 
-/* header related styles */
+/* common classes */
+.flex {
+  display: flex;
+  align-items: center;
+}
 
-.header {
-  background-image: url('../images/banner/banner1.png');
-  background-size: cover;
+h2 {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
 }
 
 h1 {
@@ -23,6 +29,27 @@ h1 {
   font-size: 65px;
   font-weight: 700;
 }
+
+h3 {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h4 {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* header related styles */
+
+.header {
+  background-image: url('../images/banner/banner1.png');
+  background-size: cover;
+}
+
+
 
 .sec-content {
   padding: 250px 0px;
@@ -50,22 +77,16 @@ h1 {
 
 /* main section related styles */
 
+/* failures-prev-year-sect */
 .failures-prev-year-sect {
-  display: flex;
-  flex-direction: row;
+
+  margin-top: 140px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   align-content: center;
 }
 
-h2 {
-  color: #151414;
-  font-size: 40px;
-  font-weight: 700;
-  width: 288px;
-  margin-bottom: 24px;
-}
 
 .prev-year-sect-paragraph {
   width: 416px;
@@ -93,10 +114,32 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 140px;
 }
+
 .circle img {
-position: absolute;
-width: 100%;
-height: auto;
-z-index: 10;
+  position: absolute;
+  bottom: 0;
+  margin-top: 140px;
+}
+
+.failures-para {
+  margin-top: 220px;
+}
+
+/* plans-section */
+
+.plans-section h2 {
+  text-align: center  ;
+  padding:0 45%;
+}
+
+.plans-contain {
+  padding: 2% 25%;
+}
+.plans{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
